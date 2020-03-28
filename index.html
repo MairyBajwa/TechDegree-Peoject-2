@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Project #2</title>
   </head>
   <body>
@@ -12,68 +12,71 @@
       <header>
         <h1>Umair Mushtaq</h1>
         <ul class="main-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Portofolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#Portfolio">Portofolio</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
       </header>
     </div>   <!---main header and navigation---!>
 
     <main>
       <div class="about-sectoin">
-        <p>Hi! I’m a front-end developer who loves responsive design and CSS. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
         <img src="images/responsive-layout-profile.png" alt="My Profile Image" class="profile-img">
+        <p>Hi! I’m a front-end developer who loves responsive design and CSS. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
       </div>    <!---About Section---!>
 
-        <div class="Portfolio">
-          <h2>Portfolio</h2>
-          <img src="images/Portfolio-1.png" alt="Portofolio Picture 1" class="p-img">
-          <h2 class="p-h2">Marketing Page</h2>
-          <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+        <div class="Portfolio" id="Portfolio">
+
+          <div class="prt-1">
+            <h2 class="pr-heading">Portfolio</h2>
+            <img src="images/Portfolio-1.png" alt="Portofolio Picture 1" class="p-img">
+            <h2 class="p-h2">Marketing Page</h2>
+            <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+          </div>
 
           <!--2--!>
-
+        <div class="prt-2">
           <img src="images/Portfolio-2.png" alt="Portofolio Picture 2" class="p-img">
           <h2 class="p-h2">Search Page</h2>
           <p>This project searches through a specific database to find information that the user is trying to look up.</p>
-
+        </div>
           <!--3--!>
-
+        <div class="prt-3">
           <img src="images/Portfolio-3.png" alt="Portofolio Picture 3" class="p-img">
           <h2 class="p-h2">Travel App</h2>
           <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
-
+        </div>
           <!--4--!>
-
+        <div class="prt-4">
           <img src="images/Portfolio-4.png" alt="Portofolio Picture 4" class="p-img">
           <h2 class="p-h2">Map of favorite spots</h2>
           <p>This project uses mapping APIs to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
-
+       </div>
           <!--5--!>
-
+        <div class="prt-5">
           <img src="images/Portfolio-5.png" alt="Portofolio Picture 5" class="p-img">
           <h2 class="p-h2">Photo Gallery</h2>
           <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
-
+        </div>
           <!--6--!>
-
+        <div class="prt-6">
           <img src="images/Portfolio-6.png" alt="Portofolio Picture 6" class="p-img">
           <h2>Calculator</h2>
           <p class="p-h2">Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
-
+        </div>
         </div>   <!---Portoflio Section---!>
 
-          <div class="contact">
-            <h3>Contact</h3>
+          <div class="contact" id="Contact">
+            <h2>Contact</h2>
             <p>If you’re interested in chatting or want more information about what I’ve been working on, I’d love to hear from you!</p>
               <address class="my-address">
-                <p><a href="tel:+923445954055"">Phone: +92 344 5954055</a></p>
-                <p><a href="mailto:umairmushtaq607@gmail.com">email: umairmushtaq607@gmail.com</a></p>
+                <p><a href="tel:+923445954055" class="a-contact">Phone: +92 344 5954055</a></p>
+                <p><a href="mailto:umairmushtaq607@gmail.com" class="a-contact">email: umairmushtaq607@gmail.com</a></p>
               </address>
 
           </div> <!---Contact Section---!>
     </main>
 
-    <footer class="main-footer">2020 All right reserved</footer>
+    <footer class="main-footer"><small>2020 All right reserved</small></footer>
   </body>
 </html>

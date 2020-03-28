@@ -1,0 +1,171 @@
+/* ======================================
+  Mobile-First Styles
+========================================= */
+
+/* ~~~~~~~~~~ Basic Styles ~~~~~~~~~~ */
+
+* {
+  box-sizing: border-box;
+}
+body{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1.2em;
+   background-color: #f1f1f1;
+   width: 90%;
+   text-align:center;
+   margin:auto;
+   padding: 0;
+}
+h1,
+h2,
+h3{
+  margin: 0;
+}
+/* ~~~~~~~~~~ layout Styles ~~~~~~~~~~ */
+header h1 {
+  padding: 28px;
+  font-size:1.4em;
+}
+
+li a{
+  text-decoration: none;
+  color: Black;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+}
+li {
+  list-style-type: none;
+  display: block;
+  background-color: white;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+.main-nav {
+  padding: 0;
+}
+
+.profile-img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.about-sectoin p {
+  color: #999;
+  font-size: 1.2em;
+}
+
+/* ~~~~~~~~~~  Main Content Area ~~~~~~~~~~ */
+
+.p-img {
+  width: 100%;
+}
+.pr-heading{
+  margin: 30px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  background-color: #888;
+}
+.p-h2 {
+  margin: 20px;
+  text-transform: capitalize;
+}
+.Portfolio p {
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+/* ~~~~~~~~~~  Contact Section ~~~~~~~~~~ */
+.contact h2 {
+  margin: 30px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  background-color: #888;
+}
+.contact p {
+  color: #999;
+  font-size: 1.2em;
+}
+.a-contact {
+  text-decoration: none;
+  color: Black;
+}
+
+/* ======================================
+For Tablet Styles
+========================================= */
+
+@media (min-width:768px) {
+
+  .main-nav li {
+    display: inline-block;
+    background-color:#f1f1f1;
+  }
+
+  header h1 {
+    padding-top: 50px;
+
+  }
+
+  .main-nav {
+    margin: 0;
+  }
+  .profile-img{
+    width: 40%;
+    float: right;
+    margin: auto;
+  }
+  .about-sectoin{
+    overflow: auto;
+  }
+  .pr-heading{
+    width: 100%;
+    background-color: #f1f1f1;
+    overflow: auto;
+    text-align: center;
+  }
+
+    .prt-1{
+      width: 48%;
+      float: left;
+    }
+    .prt-2{
+      width: 48%;
+      float: right;
+      padding-top: 120px;
+    }
+
+    .prt-3{
+      width: 48%;
+      float: left;
+    }
+    .prt-4{
+      width: 48%;
+      float: right;
+    }
+    .prt-5{
+      width: 48%;
+      float: left;
+      padding-top: 40px;
+    }
+    .prt-6{
+      width: 48%;
+      float: right;
+    }
+
+.Portfolio{
+  overflow: auto;
+}
+
+.contact h2{
+  background-color: #f1f1f1;
+  margin: 40px 0;
+  padding: 40px 0;
+}
+.contact p {
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+
+
+}
